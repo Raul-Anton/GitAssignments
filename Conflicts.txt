@@ -1,0 +1,11 @@
+1. How I resolved the text conflict
+
+Working with two users, Paul and Sina, Paul implemented his "Sum" method and pushed it to the repository. But when Sina implemented her "Dif" method we had two code versions
+implemented on the same lines, I pulled the most recent version from the repository and then using Visual Studio I merged the changes keeping both methods and pushed it
+in the repository.
+
+2. How I resolved the missing file conflict
+
+Paul created a new file and commited it into the repository. Sina decided to delete the new file and commit the changes again. I edited the new file with the user Paul
+but when I tried to pull the latest changes, the file was missing and I got a missing/modified file conflict. I resolved the conflict using Virtual Studio. I decided to
+keep the file and commited the file with the new changes into the repository.
