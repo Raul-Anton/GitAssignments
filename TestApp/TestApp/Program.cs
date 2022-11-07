@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+        }
+
+        static int Dif(int a, int b)
+        {
+            return a - b;
         }
     }
 }
