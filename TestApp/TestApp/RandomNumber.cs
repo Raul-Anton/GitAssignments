@@ -9,5 +9,7 @@ namespace TestApp
     internal class RandomNumber
     {
         public int Number { get; set; }
+
+        public int Number2 { get; set; }
     }
 }
